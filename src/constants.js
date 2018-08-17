@@ -3,7 +3,10 @@ import { buildAppAddress } from './utils';
 export const BASE_URL = buildAppAddress();
 
 export const URLS = {
-    MEDIA_FILE: `${BASE_URL}/media/ad.mp4`,
+    AD_SOURCE: `${BASE_URL}/media/ad.mp4`,
+
+    WRAPPER: `${BASE_URL}/wrapper`,
+    INLINE: `${BASE_URL}/inline`,
 
     ERROR: `${BASE_URL}/tracking/error`,
     IMPRESSION: `${BASE_URL}/tracking/impression`,

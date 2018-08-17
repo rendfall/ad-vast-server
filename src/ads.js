@@ -1,4 +1,4 @@
-import { BASE_URL } from './constants';
+import { URLS } from './constants';
 
 export default [
     {
@@ -14,7 +14,7 @@ export default [
             bitrate: 256,
             scalable: true,
             maintainAspectRatio: true,
-            src: `${BASE_URL}/media/ad.mp4`
+            src: URLS.AD_SOURCE
         }]
     }
 ];
