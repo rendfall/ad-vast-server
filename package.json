@@ -1,0 +1,19 @@
+{
+    "name": "ad-vast-server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node -r esm src/main.js"
+    },
+    "author": "rendfall",
+    "license": "none",
+    "dependencies": {
+        "express": "^4.16.3"
+    },
+    "devDependencies": {
+        "esm": "^3.0.77",
+        "uuid": "^3.3.2",
+        "xmlbuilder": "^10.0.0"
+    }
+}
