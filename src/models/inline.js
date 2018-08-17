@@ -33,12 +33,8 @@ function creteMediaFilesDoc(mediaFiles) {
 
 export default {
     create() {
-        const vastDocument = xml.create('VAST', {
-            version: '1.0',
-            encoding: 'utf-8'
-        });
-
-        vastDocument.att('version', '3.0');
+        const vastDocument = xml.begin()
+            .ele('VAST', {'version': '3.0' });
 
         ads.forEach((ad) => {
             const mediaFilesDocument = creteMediaFilesDoc(ad.mediaFiles);
