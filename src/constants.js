@@ -37,3 +37,5 @@ export const URLS = {
         ABANDON: `${BASE_URL}/tracking/abandon`
     }
 };
+
+export const TRACKING_PIXEL_BASE64 = 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+B/zHwAEvgJcOluBsgAAAABJRU5ErkJggg==';
